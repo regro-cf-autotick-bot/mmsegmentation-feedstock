@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - matplotlib-base
-    - mmcv
+    - mmcv <2.2.0  # https://github.com/open-mmlab/mmsegmentation/issues/3729
     - numpy
     - packaging
     - prettytable
