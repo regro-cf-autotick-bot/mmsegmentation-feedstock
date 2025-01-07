@@ -33,7 +33,7 @@ test:
   imports:
     - mmseg
   commands:
-    - pip check
+    # - pip check  # disabled because mmengine on conda-forge is mmengine-lite
     - python -c "import mmseg; print(mmseg.__version__)"
   requires:
     - pip
