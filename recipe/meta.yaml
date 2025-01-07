@@ -39,6 +39,7 @@ test:
     - python -m pytest ./tests/
     - python -c "import mmseg; print(mmseg.__version__)"
   requires:
+    - ftfy
     - pip
     - pytest
     - python {{ python_min }}
